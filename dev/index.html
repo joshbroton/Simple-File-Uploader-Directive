@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <link href="css/simple-file-uploader.css" type="text/css" rel="stylesheet" />
+</head>
+<body ng-app="fileUploaderApp" ng-controller="SimpleFileUploaderController">
+    <form>
+        <simple-file-uploader id="simpleFileUploader" ng-model="data.fileUploaderValue" label="Upload File" on-file-change="fileChanged"></simple-file-uploader>
+    </form>
+</body>
+<script src="js/app.js"></script>
+<script src="js/file-uploader-directive.js"></script>
+</html>

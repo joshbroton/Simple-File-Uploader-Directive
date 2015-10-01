@@ -1,0 +1,30 @@
+.simple-file-uploader {
+  position: relative;
+  display: inline-block;
+  width: 20rem;
+  border: 1px solid #ccc; }
+  .simple-file-uploader label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0;
+    text-align: center; }
+    .simple-file-uploader label:before {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      bottom: 1rem;
+      left: 1rem;
+      content: '';
+      border: 2px dashed #ccc;
+      border-radius: 1rem; }
+  .simple-file-uploader [type="file"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+
+/*# sourceMappingURL=simple-file-uploader.css.map */
